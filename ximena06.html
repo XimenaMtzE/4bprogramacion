@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link href="https://fonts.cdnfonts.com/css/monoton" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #F7A406;
+        }
+        .pokeImg{
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            top: 10px;
+            left: 1290px;
+        }
+        button{
+            width: 50px;
+            height: 50px;
+            background-color: #EE1C01;
+            border-color: aliceblue;
+            border-radius: 10px;
+            position: absolute;
+            top: 650px;
+            left: 550px;
+        }
+
+        .pokeimg1{
+            position: absolute;
+            font-family: Comic Sans MS;
+            font-weight: bold;
+        }
+
+        .placeholder{
+            width: 120px;
+            height: 50px;
+            position: absolute;
+            top: 650px;
+            left: 370px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            border-radius: 10px;
+            background-color:#F7A406;
+            text-align: center;
+            text-shadow: 1px;
+        
+        .navbar {
+                background-color: hsl(305, 43%, 74%) !important;
+                border-radius: 5px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            .navbar-brand, .nav-link {
+                color: white !important;
+            }
+            .nav-link:hover {
+                background-color: #8d418d;
+                border-radius: 5px;
+            }
+            .jumbotron {
+                background: linear-gradient(135deg, #d6a5d6, #f8e8ff);
+                color: #540655;
+                text-align: center;
+                padding: 30px;
+                border-radius: 50px;
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            }
+            .dropdown-menu {
+                background-color: #f8e8ff;
+                border-radius: 5px;
+            }
+            .dropdown-menu a:hover {
+                background-color: #d6a5d6;
+            }
+        }
+    </style>
+<nav class="navbar navbar-light" style="background-color: hsl(305, 43%, 84%);">
+    <div class="container">
+        <a class="navbar-brand" href="index.html" style="color: white;">INICIO</a>
+       
+       
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="nav navbar-nav"> 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="unidad1.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">UNIDAD 1</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="ximena01.php">Mostrar Datos - G.Kpop</a></li>
+                        <li><a class="dropdown-item" href="ximena02.php">Mostrar Datos - S.Kpop</a></li>
+                        <li><a class="dropdown-item" href="ximena03.php">Añadir Datos - S.Kpop</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav"> 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="unidad2.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">UNIDAD 2</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="ximena04.php">Tabla alumnos</a></li>
+                        <li><a class="dropdown-item" href="ximena05.php">Registro alumnos</a></li>
+                        <li><a class="dropdown-item" href="ximenam01.php">No Funcional</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav"> 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="unidad3.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">UNIDAD 3</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="ximena05a.php">Registro y Tabla alumnos</a></li>
+                        <li><a class="dropdown-item" href="ximena08.php">Stray Kids</a></li>
+                        <li><a class="dropdown-item" href="ximena06.html">Pokemon</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav"> 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="unidad4.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">UNIDAD 4</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="ximena07.html">Peliculas</a></li>
+                        <li><a class="dropdown-item" href="ximena08.html">Dragon Ball</a></li>
+                        <li><a class="dropdown-item" href="ximena09.html">Práctica Final</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <img src="pokemoon.jpg">
+    <input type="text" placeholder="PIKACHU" id="pokeName" class="placeholder">
+    <img src="pokebola.jpg" alt="pokebola" id="pokeImg" class="pokeImg">
+
+    <div id="pokename" class="pokeimg1" style="left: 400px; top: 100px; color:hsl(33, 99%, 47%);"> Nombre: </div>
+    <div id="pokeHe" class="pokeimg1" style="left: 400px; top: 200px; color:hsl(33, 99%, 47%);">Altura:</div>
+    <div id="pokeWe" class="pokeimg1" style="left: 400px; top: 300px; color:hsl(33, 99%, 47%);">Peso:</div>
+    <div id="poketype" class="pokeimg1" style="left: 400px; top: 400px; color:hsl(33, 99%, 47%);">Tipo: </div>
+    <div id="pokeitem" class="pokeimg1" style="left: 400px; top: 500px; color:hsl(33, 99%, 47%);">Item:</div>
+    <div id="pokemove" class="pokeimg1" style="left: 780px; top: 100px; color:#EE1C01;">Movimiento 1:</div>
+    <div id="pokemove" class="pokeimg1" style="left: 780px; top: 200px; color:#EE1C01;">Movimiento 2: </div>
+    <div id="pokemove" class="pokeimg1" style="left: 780px; top: 300px; color:#EE1C01;">Movimiento 3:</div>
+    <div id="pokemove" class="pokeimg1" style="left: 780px; top: 400px; color:#EE1C01;">Movimiento 4:</div>
+
+    <button onclick="fetchPokemon()" class="button"> </button>
+    <div class="grafica">
+         <canvas id="miCanvas"> </canvas>
+    </div>
+    <script>
+        const fetchPokemon = () => {
+        const pokeNameInput = document.getElementById("pokeName");
+        let pokeName = pokeNameInput.value;
+        pokeName = pokeName.toLowerCase();
+        const url = `https://pokeapi.co/api/v2/pokemon/${pokeName}`;
+        fetch(url).then((res) => {
+            if (res.status != "200") {
+                console.log(res);
+            }
+            else {
+                return res.json();
+            }
+        }).then((data) => {
+            if (data) {
+                console.log(data);
+                let pokeImg = data.sprites.front_default;
+                pokeImage(pokeImg);
+                let name=document.getElementById('pokename');
+                name.innerHTML=`Nombre: ${data.forms[0].name}`;
+                let element1=document.getElementById('pokeHe');
+                element1.innerHTML=`Atura: ${data.height}`;
+                let element2=document.getElementById('pokeWe');
+                element2.innerHTML=`Peso: ${data.weight}`;
+                let element3=document.getElementById('pokeorder');
+                element3.innerHTML=`Order: #${data.order}`;
+                let element4=document.getElementById('pokeid');
+                element4.innerHTML=`Id: #${data.id}`;
+                let element5=document.getElementById('pokeitem');
+                element5.innerHTML=`Ability: ${data.abilities[0].ability.name}`;
+                let element6=document.getElementById('poketype');
+                element6.innerHTML=`Type: ${data.type[0].type.name}`;
+                let element7=document.getElementById('pokemove1');
+                element7.innerHTML=`Move 1: ${data.move[0].move.name}`;
+                let element8=document.getElementById('pokemove2');
+                element8.innerHTML=`Move 2: ${data.move[1].move.name}`;
+                let element9=document.getElementById('pokemove3');
+                element9.innerHTML=`Move 3: ${data.move[2].move.name}`;
+                let element10=document.getElementById('pokemove4');
+                element10.innerHTML=`Move 4: ${data.move[3].move.name}`;
+                
+                const miCanvas=document.getElementById("miCanvas").getContext("2d");
+                if(window.miCanvas != undefined)
+                window.miCanvas.destroy();
+                window.miCanvas=new Chart(miCanvas,{
+                    type: "bar",
+                    data: {
+                        labels:["HP", "Attack", "Defense", "Special-A", "Special-D", "Speed"],
+                        datasets:[
+                            {
+                                label: `{data.form[0].name}`,
+                                backgroundColor: 'rgba(154,62,35,1)',
+
+                                data:[`{data.stats[0].base_stat}`,`{data.stats[1].base_stat}`,`{data.stats[2].base_stat}`,
+                                    `{data.stats[3].base_stat}`,`{data.stats[4].base_stat}`,`{data.stats[5].base_stat}`],
+                                borderColor: [
+                                    'rgba(255, 99, 132, 1)',
+                                    'rgba(54, 162, 235, 1)',
+                                    'rgba(355, 206, 86, 1)',
+                                    'rgba(75, 192, 192, 1)',
+                                    'rgba(153, 102, 255, 1)',
+                                    'rgba(255, 159, 64, 1)'
+                                ],
+                                backgroundColor: [
+                                    'rgba(255, 99, 132, 0.5)',
+                                    'rgba(54, 162, 235, 0.5)',
+                                    'rgba(355, 206, 86, 0.5',
+                                    'rgba(75, 192, 192, 0.5)',
+                                    'rgba(153, 102, 255, 0.5)',
+                                    'rgba(255, 159, 64, 0.5)'
+                                ],
+                                bordeWidth: 1,
+                            }
+                        ]
+                    },
+                    options: {
+                        scales: {
+                            x: {
+                                ticks: {
+                                    maxRotation: 90,
+                                    minRotation: 90,
+                                    color:purple,
+                                    font: {size: 15},
+                                }
+                            }
+                        }
+                    }
+                })
+            }
+        });
+        const pokeImage = (url) => {
+        const pokePhoto = document.getElementById("pokeImg");
+        pokePhoto.src = url;
+        }
+        }
+    </script>
+</body>
+</html>
